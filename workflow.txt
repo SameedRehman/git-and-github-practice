@@ -18,3 +18,7 @@ MERGING CODE:
 
             way 2:
                 create a PR
+
+create a PR (Pull request):
+                        it lets you tell others about changes you have pushed to a branch in a repository on github.
+                        
