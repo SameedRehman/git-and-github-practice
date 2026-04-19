@@ -1,0 +1,41 @@
+Steps to Add Changes or a File in a New GitHub Repository
+1. Initialize the Repository
+
+    Open your terminal or command line interface.
+    Navigate to the directory where you want to create your repository.
+
+    Run the command:
+
+    git init
+
+2. Add the File
+
+    Place the file you want to add in the repository directory.
+
+    Use the following command to stage the file:
+
+    git add <file>
+
+    Replace <file> with the name of your file. You can also use git add . to stage all changes in the directory.
+
+3. Commit the Changes
+
+    After staging the file, commit the changes with a message describing what you did:
+
+    git commit -m "your message"
+
+    Replace "your message" with a brief description of the changes.
+
+4. Push to GitHub
+
+    Link your local repository to a remote GitHub repository. Use the command:
+
+git remote add origin <repository-url>
+
+Replace <repository-url> with the URL of your GitHub repository.
+
+Finally, push your changes to GitHub:
+
+git push origin main
+
+If your default branch is master, use that instead of main.
