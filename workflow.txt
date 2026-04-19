@@ -1,0 +1,12 @@
+Local git:
+
+github repo >> clone >> changes >> add >> commit >> push
+
+git branches :
+
+branch commands:
+                git branch (to check branch)
+                git branch -M main (rename branch)
+                git checkout <-branch name-> (to Navigate)
+                git checkout -b <-new branch name-> (create a new branch)
+                git branch -d <-branch name-> (to delete a branch)
