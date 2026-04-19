@@ -1,0 +1,47 @@
+                        what is a Git
+
+Version control System is a tools that helps to crack changes in code.
+
+Git is Version control System. It is:
+
+1.    Popular
+2.    Free and Open Source
+3.    Fast and Scalable
+
+Git is Primarily used for:
+                        Track the code histroy
+                        Collaboration
+
+
+
+                        what is a Github
+
+Website that allows developers to store and manage their code using git.
+
+Git Configuration:
+                git config --global user.name "My_user_name"
+                git config --global user.email "MY_email"
+                git config --list
+
+
+CLONE AND STATUS:
+                clone -Cloning a repository on our local machine.
+                    git clone <-repository link->
+
+                Status - Displays the state of the code
+                    git status
+
+
+ADD AND COMMIT:
+            add -adds new or changed files in your working diretory to the git staging area.
+                git add <-file name->
+                git add . (to commit all changes at once)
+
+            commit -it is the record of change.
+            git commit <-some message->
+            example : git commit -m "add a new paragraph"
+
+
+PUSH:
+    push - upload local repo content to remote app
+        git push origin main

@@ -1,0 +1,14 @@
+                    Git Status
+
+
+Untracked:
+        New files that git doesnt yet tracking.
+
+Modified:
+        changed
+
+staged:
+        file is ready to staged.
+
+unmodified:
+        unchanged
