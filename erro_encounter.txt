@@ -10,7 +10,7 @@ explaination:
             what this error is saying i dont see a branch named main here to push
 
 solution :
-        git config --global init.DefaultBranch main
+        git config --global init.DefaultBranch main (this command initialize repo with 'main' branch name not with 'master')
         rename a local branch
         push to github
         
