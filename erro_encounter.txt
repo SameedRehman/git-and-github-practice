@@ -1,0 +1,15 @@
+the error encounter
+ error: src refspec main does not match any
+
+error: failed to push some refs to <-github profile repo url->
+
+
+current branch name is "master" and in modern github branch name is "main"
+
+explaination:
+            what this error is saying i dont see a branch named main here to push
+
+solution :
+        rename a local branch
+        push to github
+        
