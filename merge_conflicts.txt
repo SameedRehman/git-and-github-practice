@@ -2,3 +2,9 @@ MERGING CONFLICTS
 
 An event that takes place when git is unable to automatically resolve differences in code between two commits.
 
+if changes have done in same line of code and made commits in two diff branches.
+
+command :
+        git merge main
+        pop-up error a window which shown us the diffrence in code in the same line.
+        git merge features2 (to merge main with features2)
