@@ -50,3 +50,11 @@ PUSH:
                                             git remote add origin <- repo url-> 
                                             and then: git push origin main
 
+Init commands:
+            init -used to create a new git repo
+            git init
+            git git remote add origin <-link->
+            git remote -v (to verify version)
+            git branch (to check branch)
+            git branch -M main(to rename branch)
+            git push origin main
