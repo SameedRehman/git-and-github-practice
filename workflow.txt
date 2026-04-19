@@ -10,3 +10,11 @@ branch commands:
                 git checkout <-branch name-> (to Navigate)
                 git checkout -b <-new branch name-> (create a new branch)
                 git branch -d <-branch name-> (to delete a branch)
+
+
+MERGING CODE:
+            git diff <-branch name-> (to compare commits ,branches ,files and more)
+            git merge <-branch name-> (to merge 2 branches)
+
+            way 2:
+                create a PR
