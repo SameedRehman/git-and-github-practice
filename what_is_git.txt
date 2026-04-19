@@ -45,3 +45,7 @@ ADD AND COMMIT:
 PUSH:
     push - upload local repo content to remote app
         git push origin main
+
+        push command to push code in new repo:
+                                            git remote add origin <- repo url-> 
+                                            and then: git push origin main
