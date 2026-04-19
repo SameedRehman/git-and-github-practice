@@ -10,6 +10,46 @@ explaination:
             what this error is saying i dont see a branch named main here to push
 
 solution :
+        git config --global init.DefaultBranch main
         rename a local branch
         push to github
         
+new erro encounter:
+
+before my initialize a repo in my directory already created the repo on github website and created a readme.md that doesnt exist in my local directory
+
+The Remote Conflict.
+What is happening?
+
+When you created the repository on GitHub, you likely checked a box to "Initialize this repository with a README" or a License file. This created a commit on GitHub that does not exist on your computer.
+
+Git is protective. It won't let you push your work because doing so would effectively "overwrite" and delete that README file on GitHub. It’s telling you: "Hey, there's stuff online that you don't have here yet. Grab that first!"
+
+solution:
+        git pull origin main --allow-unrelated-histories
+
+the merging :
+
+Git is being extra cautious here. Because your local history and GitHub's history started independently, Git wants you to explicitly decide how to join them together.
+
+Think of it like two different paths that need to meet: you can either "merge" them (creating a new knot where they meet) or "rebase" them (stacking your work on top of GitHub's).
+The Fix
+
+Since you are just starting out, the Merge method is the most straightforward and standard way to handle this.
+
+    Tell Git you want to use the "merge" strategy:
+                                                git config pull.rebase false
+
+Handle the Merge Message:
+Your terminal will likely open a text editor (like Nano or Vim) to create a "Merge commit."
+
+    If it's Nano: Press Ctrl+O, then Enter, then Ctrl+X.
+
+    If it's Vim: Type :wq and hit Enter.
+
+Push your work:
+Now that the histories are combined, you can finally send everything to GitHub:
+                                                                            git push origin main
+
+
+now all solved
