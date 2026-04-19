@@ -1,8 +1,8 @@
 UNDOING CHANGES
 
 Case 1: staged changes
-        git reset <-filename->
-        git reset
+        git reset <-filename-> (in single file)
+        git reset (in multiple files)
 
 Case 2: commited changes(for one commit)
         git reset HEAD~1
@@ -10,3 +10,8 @@ Case 2: commited changes(for one commit)
 Case 3: commited changes (for many commits)
         git reset <-commit hash->
         git reset --hard <-commit hash->
+
+to see all commits:
+                git log
+                q for quit
+
